@@ -1,2 +1,0 @@
-
-Future home of the As4QoL archives
