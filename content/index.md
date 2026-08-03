@@ -1,1 +1,1 @@
-This is a new home
+This is a new home page
