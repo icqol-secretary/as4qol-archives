@@ -12,24 +12,25 @@
 I now have two pages called index. one in the root of my vault, one in the folder.
 
 
-## this should be dead, but is actually a link to this page!
-
+## this links to the index page in my root in obsidian
+but actually goes to the index page in my subfolder on the site.
 
 ```
-[[index|this should be dead, but is actually a link to this page!]]
+[[index|link to index in root]]
 ```
-[[index|this should be dead, but is actually a link to this page!]]
+![[placeholder in main root|link to index in root]]
 
 
-## this also links her
+## this specifically links to the subfolder index
+a.k.a. to this page itself. Note that it contains infinite loop!
 ```
-[[As4QoL Archives/index|this also links here]]
+[[As4QoL Archives/index|subfolder index]]
 ```
-[[As4QoL Archives/index|this also links here]]
+![[As4QoL Archives/index|subfolder index]]
 
 ## In my vault, this goes to the page in the root, but on the site it goes here!
 ```
-[[/index|In my vault, this goes to the page in the root, but on the site it goes here!]]
+[[/index|explicit root]]
 ```
-[[/index|this is dead!]]
+![[placeholder in main root|explicit root]]
 
